@@ -116,3 +116,14 @@ void main() { //app launch
 
 - application 부분의 **android::icon = @mipmap/ic_launcher** 이라고 되어있는 부분에 mipmap 다음 파트의 이름과 android/app/src/main/res 폴더 안에 있는 mipmap 폴더 안의 파일 이름이 같아야한다. ~~이것 때문에 고생 오래했다~~ 
 
+
+# Running Your App on a physical device
+
+## Deploying flutter apps to an android phone
+
+- setting/about/software information/build number 를 탭하다보면 개발자 모드를 켤 수 있다.
+- 개발자모드를 키면 설정에 없던 개발자 옵션을 확인할 수 있다. 여기서 USB 디버깅을 키면 된다. 이것은 컴퓨터와 핸드폰의 개발용도의 연결을 허용하는 것으로 추정된다.
+- 어떤 테이블은 데이터가 아니라 충전만 가능하기 때문에 알맞은 케이블을 사용해야한다. 핸드폰에 USB 디버깅을 허용하도록 팝업창이 떴을 때 컴퓨터가 믿을만한 장치일 경우 항상 허용을 하는 것을 추천한다.
+- 이렇게 하면 android studio / vscode에 device로 사용할 수 있게 된다.
+
+
