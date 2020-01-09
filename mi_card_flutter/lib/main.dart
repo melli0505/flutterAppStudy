@@ -5,7 +5,7 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.pink[900],
+        backgroundColor: Colors.pink[200],
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
