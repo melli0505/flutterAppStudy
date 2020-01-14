@@ -22,7 +22,6 @@ class AnswerPage extends StatelessWidget {
   }
 }
 
-
 class Answer extends StatefulWidget {
   @override
   _AnswerState createState() => _AnswerState();
@@ -33,12 +32,15 @@ class _AnswerState extends State<Answer> {
     int answerNum = 1;
   @override
   Widget build(BuildContext context) {
+    void answerRand(){
+      setState(() {
+            answerNum = Random().nextInt(5)+1;
+          });
+    }
     return Center(
       child: FlatButton(
         onPressed: (){
-          setState(() {
-            answerNum = Random().nextInt(5)+1;
-          });
+          answerRand();
         },
         child: Image.asset('images/ball$answerNum.png'),
       ),
