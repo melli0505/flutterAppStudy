@@ -5,7 +5,7 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.pink[200],
+        backgroundColor: Colors.pink[900],
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -23,7 +23,7 @@ void main() {
                 ),
               ),
               Text(
-                'FLUTTER DEVELOPER',
+                'DSC HUFS & HUFS CES',
                 style: TextStyle(
                   fontSize:15.0,
                   color: Colors.pink.shade50,
