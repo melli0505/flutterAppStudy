@@ -8,7 +8,7 @@ void main(){
           title: Text("I am poor"),
           backgroundColor: Colors.green,
         ),
-        backgroundColor: Colors.greenAccent[100],
+        backgroundColor: Colors.greenAccent,
         body: Center(
           child: Image(
             image: AssetImage('image/envio-69.jpg'),
